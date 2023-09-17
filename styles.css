@@ -37,6 +37,7 @@ nav {
   text-decoration: none;
   color: white;
   font-size: 22px;
+  transition: .5s;
 }
 
 .links a:not(:last-child) {
@@ -93,11 +94,11 @@ nav {
   animation: myborder 4s infinite;
   background-color: white;
   font-weight: 600;
+  color: black;
 }
 
 .sign-up:hover {
   background-color: lightblue;
-  color: white;
   width: 330px;
 }
 
