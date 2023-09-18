@@ -5,7 +5,7 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-body {
+body{
   min-height: 100vh;
 }
 
@@ -316,7 +316,7 @@ footer {
 
 /* ^^^^^^^^^^^^^^ footer ^^^^^^^^^^^^^ */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   header {
     padding: 0 80px;
   }
@@ -398,7 +398,7 @@ footer {
 
 /* ^^^^^^^Notepad view ^^^^^^^^^^^^ */
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   header {
     height: fit-content;
   }
@@ -416,7 +416,7 @@ footer {
 
   #phone-view {
     display: block;
-    width: 100vh;
+    width: 100vw;
     margin: -10px 0;
   }
 
@@ -546,3 +546,43 @@ footer {
     font-size: 22px;
   }
 }
+
+/*------------------------------------*/
+
+@media only screen and (max-width: 512px) { 
+    header {
+      padding: 0;
+    }
+
+    .header-logo {
+      font-size: 25px;
+    }
+
+    .header-img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .header-information p {
+      padding: 14px 10px;
+    }
+
+    /*^^^^   header ^^^^*/
+
+    .hero-card-section h2 {
+      font-size: 20px;
+    }
+
+    /* ^^^ hero section ^^^*/
+
+    footer {
+      margin: 0;
+      height: fit-content;
+    }
+
+    .footer-content {
+      margin: 0;
+    }
+}
+
+/* ^^^^^^ small phones view ^^^^^*/
